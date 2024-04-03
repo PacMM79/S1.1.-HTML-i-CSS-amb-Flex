@@ -20,6 +20,11 @@ body {
     background-color: #EA5455;
     padding: 15px;
     margin: 15px;
+    transition: transform .2s;
+}
+.nav1:hover, .nav2:hover, .nav3:hover {
+    transform: scale(1.2);
+    background-color: #e330d1;
 }
 .nav1, .nav3 {
     width: 25%;
