@@ -1,0 +1,95 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.navbox {
+    background-color: #000;
+    margin: 15px;
+    padding: 15px;
+}
+.nav {
+    background-color: #2D4059;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.nav1, .nav2, .nav3 {
+    background-color: #EA5455;
+    padding: 15px;
+    margin: 15px;
+}
+.nav1, .nav3 {
+    width: 25%;
+}
+.nav2 {
+    width: 50%;
+}
+.banner {
+    background-color: #F07B3F;
+    padding: 15px;
+    margin-top: 15px;    
+}
+.ban1 {
+    background-color: #FED460;
+    padding: 15px;
+    margin: 15px;
+    font-size: xx-large;     
+}
+.mainbox {
+    background-color: #000;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+}
+.main {
+    background-color: #4E4E6A;
+    width: 60%;
+    padding: 15px;
+}
+.main_1 {
+    display: flex;
+    margin: 15px;
+}
+.main_2 {
+    display: flex;
+    margin: 15px;
+}
+.main_in1 {
+    background-color: #1F6CB0;
+    padding: 15px;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    width: 45%;
+}
+.main_in2 {
+    background-color: #1F6CB0;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 45%;
+}
+.main_in5 {
+    background-color: #70A3C4;
+    margin: 15px;
+    padding: 15px;
+}
+.main_side {
+    background-color: #F73F52;
+    width: 40%;
+    padding: 15px;
+}
+.side1 {
+    background-color: #FEEA85;
+    padding: 15px;
+    margin: 15px;
+}
+.footbox {
+    background-color: #000;
+    margin: 15px;
+    padding: 15px;
+}
+.foot1 {
+    background-color: #E6AF2E;
+    padding: 15px;
+}
