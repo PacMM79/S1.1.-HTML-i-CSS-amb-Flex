@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    background-color: beige;
 }
 .navbox {
     background-color: #000;
@@ -95,15 +96,21 @@ body {
 }
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+    body {
+        background-color: burlywood;    
+    }
     .mainbox  {
         display: block;
-        }
+    }
     .main, .main_side {
         width: auto;
-        }
     }
+}
 /* Small devices (phones, 580px and down) */
 @media only screen and (max-width: 580px) {
+    body {
+        background-color: brown;    
+    }
     .nav {
         display: block;
     }    
@@ -129,4 +136,4 @@ body {
     .main_side {
         width: auto;
     } 
-    }    
+}    
