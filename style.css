@@ -102,3 +102,31 @@ body {
         width: auto;
         }
     }
+/* Small devices (phones, 580px and down) */
+@media only screen and (max-width: 580px) {
+    .nav {
+        display: block;
+    }    
+    .nav1, .nav2, .nav3 {
+        width: auto;
+    }
+    .mainbox  {
+        display: block;
+    }
+    .main {
+        width: auto;
+    }
+    .main_1, .main_2 {
+        display: block;
+    }
+    .main_in1 {
+        width: auto;
+        margin-right: auto;
+    }
+    .main_in2 {
+        width: auto;
+    }
+    .main_side {
+        width: auto;
+    } 
+    }    
